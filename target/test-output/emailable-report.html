@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">LoginTestSuite</th></tr>
+<tr><td><a href="#t0">LoginPage</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">8,436</td><td>page_elements</td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">LoginSmokeTest1</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">2,259</td><td>valid, logout</td><td></td></tr>
+<tr><td><a href="#t2">LoginSmokeTest2</a></td><td class="num">2</td><td class="num">0</td><td class="num">0</td><td class="num">977</td><td>valid, logout</td><td></td></tr>
+<tr class="stripe"><td><a href="#t3">LoginSmokeTestPerformanceIssues</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">5,624</td><td>valid</td><td></td></tr>
+<tr><td><a href="#t4">LoginSmokeTestLockedUser</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">418</td><td>lockedout</td><td></td></tr>
+<tr class="stripe"><td><a href="#t5">LoginSmokeTestWrongPassword</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">397</td><td>invalid</td><td></td></tr>
+<tr><td><a href="#t6">LoginSmokeTestEmptyPassword</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">373</td><td>invalid</td><td></td></tr>
+<tr class="stripe"><td><a href="#t7">LoginSmokeTestSpaceUsername</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">420</td><td>invalid</td><td></td></tr>
+<tr><td><a href="#t8">LoginSmokeTestEmptyUsername</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">375</td><td>invalid</td><td></td></tr>
+<tr class="stripe"><td><a href="#t9">LoginSmokeTestWrongUser</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">388</td><td>invalid</td><td></td></tr>
+<tr><th>Total</th><th class="num">12</th><th class="num">0</th><th class="num">0</th><th class="num">19,667</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">LoginTestSuite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">LoginPage &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.one.LoginTest</td><td><a href="#m0">verifyLoginPageElements</a></td><td rowspan="1">1602445063316</td><td rowspan="1">2979</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">LoginSmokeTest1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.one.LoginTest</td><td><a href="#m1">verifyLogin</a></td><td rowspan="1">1602445067812</td><td rowspan="1">93</td></tr><tr class="passedeven"><td><a href="#m2">verifyLoginLogout</a></td><td rowspan="1">1602445067907</td><td rowspan="1">667</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">LoginSmokeTest2 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="2">com.one.LoginTest</td><td><a href="#m3">verifyLogin</a></td><td rowspan="1">1602445069169</td><td rowspan="1">64</td></tr><tr class="passedeven"><td><a href="#m4">verifyLoginLogout</a></td><td rowspan="1">1602445069234</td><td rowspan="1">327</td></tr></tbody>
+<tbody id="t3"><tr><th colspan="4">LoginSmokeTestPerformanceIssues &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.one.LoginTest</td><td><a href="#m5">verifyLogin</a></td><td rowspan="1">1602445075107</td><td rowspan="1">85</td></tr></tbody>
+<tbody id="t4"><tr><th colspan="4">LoginSmokeTestLockedUser &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.one.LoginTest</td><td><a href="#m6">verifyLoginFails</a></td><td rowspan="1">1602445075541</td><td rowspan="1">75</td></tr></tbody>
+<tbody id="t5"><tr><th colspan="4">LoginSmokeTestWrongPassword &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.one.LoginTest</td><td><a href="#m7">verifyLoginFails</a></td><td rowspan="1">1602445075960</td><td rowspan="1">58</td></tr></tbody>
+<tbody id="t6"><tr><th colspan="4">LoginSmokeTestEmptyPassword &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.one.LoginTest</td><td><a href="#m8">verifyLoginFails</a></td><td rowspan="1">1602445076336</td><td rowspan="1">60</td></tr></tbody>
+<tbody id="t7"><tr><th colspan="4">LoginSmokeTestSpaceUsername &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.one.LoginTest</td><td><a href="#m9">verifyLoginFails</a></td><td rowspan="1">1602445076765</td><td rowspan="1">55</td></tr></tbody>
+<tbody id="t8"><tr><th colspan="4">LoginSmokeTestEmptyUsername &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.one.LoginTest</td><td><a href="#m10">verifyLoginFails</a></td><td rowspan="1">1602445077136</td><td rowspan="1">65</td></tr></tbody>
+<tbody id="t9"><tr><th colspan="4">LoginSmokeTestWrongUser &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.one.LoginTest</td><td><a href="#m11">verifyLoginFails</a></td><td rowspan="1">1602445077534</td><td rowspan="1">60</td></tr></tbody>
+</table>
+<h2>LoginPage</h2><h3 id="m0">com.one.LoginTest#verifyLoginPageElements</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Verify elements on login page</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>LoginSmokeTest1</h2><h3 id="m1">com.one.LoginTest#verifyLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.one.LoginTest#verifyLoginLogout</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Verify logout</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>LoginSmokeTest2</h2><h3 id="m3">com.one.LoginTest#verifyLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.one.LoginTest#verifyLoginLogout</h3><table class="result"><tr><th>Messages</th></tr><tr><td><div class="messages">Verify logout</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>LoginSmokeTestPerformanceIssues</h2><h3 id="m5">com.one.LoginTest#verifyLogin</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>LoginSmokeTestLockedUser</h2><h3 id="m6">com.one.LoginTest#verifyLoginFails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>LoginSmokeTestWrongPassword</h2><h3 id="m7">com.one.LoginTest#verifyLoginFails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>LoginSmokeTestEmptyPassword</h2><h3 id="m8">com.one.LoginTest#verifyLoginFails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>LoginSmokeTestSpaceUsername</h2><h3 id="m9">com.one.LoginTest#verifyLoginFails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>LoginSmokeTestEmptyUsername</h2><h3 id="m10">com.one.LoginTest#verifyLoginFails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>LoginSmokeTestWrongUser</h2><h3 id="m11">com.one.LoginTest#verifyLoginFails</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

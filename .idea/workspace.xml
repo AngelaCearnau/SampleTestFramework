@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="af4888bd-0191-4fbb-81fc-b1244a6a19b2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1ibd5WU7qIgOZMZd48wWh6hYQdh" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/TestNG-XML-Suites/Login/LoginTestSuite.xml" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.one" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.one" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\AngelaDaniel\IdeaProjects\PocForOneCom\TestNG-XML-Suites\Login" />
+    </key>
+  </component>
+  <component name="RunManager" selected="TestNG.LoginTestSuite.xml">
+    <configuration name="LoginTestSuite.xml" type="TestNG">
+      <module name="PocForOneCom" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG-XML-Suites/Login/LoginTestSuite.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea -Dwebdriver.baseUrl=https://www.saucedemo.com/ -Dwebdriver.remote=false -Dwebdriver.capabilities.browserName=chrome -DforkCount=0 -DreuseForks=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SmokeTestSuite.xml" type="TestNG">
+      <module name="PocForOneCom" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/TestNG-XML-Suites/Smoke/SmokeTestSuite.xml" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="GROUP_NAME" value="" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <option name="VM_PARAMETERS" value="-ea -Dwebdriver.baseUrl=https://www.saucedemo.com/ -Dwebdriver.remote=false -Dwebdriver.capabilities.browserName=chrome -DforkCount=0 -DreuseForks=false" />
+      <option name="PARAMETERS" value="" />
+      <option name="OUTPUT_DIRECTORY" value="" />
+      <option name="PROPERTIES_FILE" value="" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.LoginTestSuite.xml" />
+      <item itemvalue="TestNG.SmokeTestSuite.xml" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="af4888bd-0191-4fbb-81fc-b1244a6a19b2" name="Default Changelist" comment="" />
+      <created>1602180042404</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602180042404</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2078" y="-330" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1602355822687">
+      <screen x="1600" y="-540" width="2048" height="1112" />
+    </state>
+    <state x="-1570" y="-161" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860/-2048.-371.2048.1112@-2048.-371.2048.1112" timestamp="1602243310135" />
+    <state x="2078" y="-330" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1600.860/1600.-540.2048.1112@1600.-540.2048.1112" timestamp="1602355822687" />
+    <state x="-1956" y="-279" width="1864" height="928" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1602255383418">
+      <screen x="-2048" y="-371" width="2048" height="1112" />
+    </state>
+    <state x="-1956" y="-279" width="1864" height="928" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1600.860/-2048.-371.2048.1112@-2048.-371.2048.1112" timestamp="1602255383418" />
+    <state x="2429" y="-269" key="#com.intellij.ide.util.MemberChooser" timestamp="1602404056109">
+      <screen x="1600" y="-540" width="2048" height="1112" />
+    </state>
+    <state x="2429" y="-269" key="#com.intellij.ide.util.MemberChooser/0.0.1600.860/1600.-540.2048.1112@1600.-540.2048.1112" timestamp="1602404056109" />
+    <state x="-1228" y="44" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602241851416">
+      <screen x="-2048" y="-371" width="2048" height="1112" />
+    </state>
+    <state x="-1228" y="44" width="408" height="291" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1600.860/-2048.-371.2048.1112@-2048.-371.2048.1112" timestamp="1602241851416" />
+    <state x="2354" y="-238" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1602410580810">
+      <screen x="1600" y="-540" width="2048" height="1112" />
+    </state>
+    <state x="2354" y="-238" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860/1600.-540.2048.1112@1600.-540.2048.1112" timestamp="1602410580810" />
+    <state x="2119" y="-272" width="1006" height="595" key="#xdebugger.evaluate" timestamp="1602369080313">
+      <screen x="1600" y="-540" width="2048" height="1112" />
+    </state>
+    <state x="2119" y="-272" width="1006" height="595" key="#xdebugger.evaluate/0.0.1600.860/1600.-540.2048.1112@1600.-540.2048.1112" timestamp="1602369080313" />
+    <state width="467" height="466" key="DebuggerActiveHint" timestamp="1602359086073">
+      <screen x="1600" y="-540" width="2048" height="1112" />
+    </state>
+    <state width="467" height="466" key="DebuggerActiveHint/0.0.1600.860/1600.-540.2048.1112@1600.-540.2048.1112" timestamp="1602359086073" />
+    <state x="-1244" y="-75" key="FileChooserDialogImpl" timestamp="1602243252951">
+      <screen x="-2048" y="-371" width="2048" height="1112" />
+    </state>
+    <state x="-1244" y="-75" key="FileChooserDialogImpl/0.0.1600.860/-2048.-371.2048.1112@-2048.-371.2048.1112" timestamp="1602243252951" />
+    <state width="2005" height="242" key="GridCell.Tab.0.bottom" timestamp="1602446125725">
+      <screen x="1600" y="-540" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="272" key="GridCell.Tab.0.bottom/0.0.1600.860/-2048.-371.2048.1112@-2048.-371.2048.1112" timestamp="1602329980345" />
+    <state width="2005" height="242" key="GridCell.Tab.0.bottom/0.0.1600.860/1600.-540.2048.1112@1600.-540.2048.1112" timestamp="1602446125725" />
+    <state width="1557" height="271" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1602266529867" />
+    <state width="2005" height="242" key="GridCell.Tab.0.center" timestamp="1602446125725">
+      <screen x="1600" y="-540" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="272" key="GridCell.Tab.0.center/0.0.1600.860/-2048.-371.2048.1112@-2048.-371.2048.1112" timestamp="1602329980344" />
+    <state width="2005" height="242" key="GridCell.Tab.0.center/0.0.1600.860/1600.-540.2048.1112@1600.-540.2048.1112" timestamp="1602446125725" />
+    <state width="1557" height="271" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1602266529867" />
+    <state width="2005" height="242" key="GridCell.Tab.0.left" timestamp="1602446125724">
+      <screen x="1600" y="-540" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="272" key="GridCell.Tab.0.left/0.0.1600.860/-2048.-371.2048.1112@-2048.-371.2048.1112" timestamp="1602329980344" />
+    <state width="2005" height="242" key="GridCell.Tab.0.left/0.0.1600.860/1600.-540.2048.1112@1600.-540.2048.1112" timestamp="1602446125724" />
+    <state width="1557" height="271" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1602266529866" />
+    <state width="2005" height="242" key="GridCell.Tab.0.right" timestamp="1602446125725">
+      <screen x="1600" y="-540" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="272" key="GridCell.Tab.0.right/0.0.1600.860/-2048.-371.2048.1112@-2048.-371.2048.1112" timestamp="1602329980344" />
+    <state width="2005" height="242" key="GridCell.Tab.0.right/0.0.1600.860/1600.-540.2048.1112@1600.-540.2048.1112" timestamp="1602446125725" />
+    <state width="1557" height="271" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1602266529867" />
+    <state width="2005" height="367" key="GridCell.Tab.1.bottom" timestamp="1602369531581">
+      <screen x="1600" y="-540" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="367" key="GridCell.Tab.1.bottom/0.0.1600.860/1600.-540.2048.1112@1600.-540.2048.1112" timestamp="1602369531581" />
+    <state width="2005" height="367" key="GridCell.Tab.1.center" timestamp="1602369531581">
+      <screen x="1600" y="-540" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="367" key="GridCell.Tab.1.center/0.0.1600.860/1600.-540.2048.1112@1600.-540.2048.1112" timestamp="1602369531581" />
+    <state width="2005" height="367" key="GridCell.Tab.1.left" timestamp="1602369531581">
+      <screen x="1600" y="-540" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="367" key="GridCell.Tab.1.left/0.0.1600.860/1600.-540.2048.1112@1600.-540.2048.1112" timestamp="1602369531581" />
+    <state width="2005" height="367" key="GridCell.Tab.1.right" timestamp="1602369531581">
+      <screen x="1600" y="-540" width="2048" height="1112" />
+    </state>
+    <state width="2005" height="367" key="GridCell.Tab.1.right/0.0.1600.860/1600.-540.2048.1112@1600.-540.2048.1112" timestamp="1602369531581" />
+    <state x="2022" y="-431" key="Maven.ArtifactSearchDialog" timestamp="1602406167631">
+      <screen x="1600" y="-540" width="2048" height="1112" />
+    </state>
+    <state x="2022" y="-431" key="Maven.ArtifactSearchDialog/0.0.1600.860/1600.-540.2048.1112@1600.-540.2048.1112" timestamp="1602406167631" />
+    <state x="330" y="84" key="Maven.ArtifactSearchDialog/0.0.1600.860@0.0.1600.860" timestamp="1602183068881" />
+    <state width="1032" height="564" key="XDebugger.FullValuePopup" timestamp="1602359189859">
+      <screen x="1600" y="-540" width="2048" height="1112" />
+    </state>
+    <state width="1032" height="564" key="XDebugger.FullValuePopup/0.0.1600.860/1600.-540.2048.1112@1600.-540.2048.1112" timestamp="1602359189859" />
+    <state x="2075" y="-285" width="944" height="789" key="find.popup" timestamp="1602411177860">
+      <screen x="1600" y="-540" width="2048" height="1112" />
+    </state>
+    <state x="2075" y="-285" width="944" height="789" key="find.popup/0.0.1600.860/1600.-540.2048.1112@1600.-540.2048.1112" timestamp="1602411177860" />
+    <state x="431" y="132" width="737" height="596" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1602186758900" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/one/framework/Element.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

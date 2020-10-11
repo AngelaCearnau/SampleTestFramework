@@ -1,0 +1,743 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="28" total="40" passed="12">
+  <reporter-output>
+    <line>
+      <![CDATA[Verify elements on login page]]>
+    </line>
+    <line>
+      <![CDATA[Verify login for username <<standard_user>> and password <<secret_sauce>>]]>
+    </line>
+    <line>
+      <![CDATA[Verify logout]]>
+    </line>
+    <line>
+      <![CDATA[Verify login for username <<problem_user>> and password <<secret_sauce>>]]>
+    </line>
+    <line>
+      <![CDATA[Verify logout]]>
+    </line>
+  </reporter-output>
+  <suite name="LoginTestSuite" duration-ms="19733" started-at="2020-10-11T19:37:37Z" finished-at="2020-10-11T19:37:57Z">
+    <groups>
+      <group name="valid">
+        <method signature="LoginTest.verifyLogin()[pri:0, instance:com.one.LoginTest@3e57cd70]" name="verifyLogin" class="com.one.LoginTest"/>
+        <method signature="LoginTest.verifyLogin()[pri:0, instance:com.one.LoginTest@7a9273a8]" name="verifyLogin" class="com.one.LoginTest"/>
+        <method signature="LoginTest.verifyLogin()[pri:0, instance:com.one.LoginTest@6043cd28]" name="verifyLogin" class="com.one.LoginTest"/>
+      </group> <!-- valid -->
+      <group name="page_elements">
+        <method signature="LoginTest.verifyLoginPageElements()[pri:0, instance:com.one.LoginTest@34c4973]" name="verifyLoginPageElements" class="com.one.LoginTest"/>
+      </group> <!-- page_elements -->
+      <group name="logout">
+        <method signature="LoginTest.verifyLoginLogout()[pri:0, instance:com.one.LoginTest@3e57cd70]" name="verifyLoginLogout" class="com.one.LoginTest"/>
+        <method signature="LoginTest.verifyLoginLogout()[pri:0, instance:com.one.LoginTest@7a9273a8]" name="verifyLoginLogout" class="com.one.LoginTest"/>
+      </group> <!-- logout -->
+      <group name="invalid">
+        <method signature="LoginTest.verifyLoginFails()[pri:0, instance:com.one.LoginTest@44c8afef]" name="verifyLoginFails" class="com.one.LoginTest"/>
+        <method signature="LoginTest.verifyLoginFails()[pri:0, instance:com.one.LoginTest@77ec78b9]" name="verifyLoginFails" class="com.one.LoginTest"/>
+        <method signature="LoginTest.verifyLoginFails()[pri:0, instance:com.one.LoginTest@4eb7f003]" name="verifyLoginFails" class="com.one.LoginTest"/>
+        <method signature="LoginTest.verifyLoginFails()[pri:0, instance:com.one.LoginTest@2db7a79b]" name="verifyLoginFails" class="com.one.LoginTest"/>
+        <method signature="LoginTest.verifyLoginFails()[pri:0, instance:com.one.LoginTest@64f6106c]" name="verifyLoginFails" class="com.one.LoginTest"/>
+        <method signature="LoginTest.verifyLoginFails()[pri:0, instance:com.one.LoginTest@1d371b2d]" name="verifyLoginFails" class="com.one.LoginTest"/>
+      </group> <!-- invalid -->
+      <group name="lockedout">
+        <method signature="LoginTest.verifyLoginFails()[pri:0, instance:com.one.LoginTest@44c8afef]" name="verifyLoginFails" class="com.one.LoginTest"/>
+        <method signature="LoginTest.verifyLoginFails()[pri:0, instance:com.one.LoginTest@77ec78b9]" name="verifyLoginFails" class="com.one.LoginTest"/>
+        <method signature="LoginTest.verifyLoginFails()[pri:0, instance:com.one.LoginTest@4eb7f003]" name="verifyLoginFails" class="com.one.LoginTest"/>
+        <method signature="LoginTest.verifyLoginFails()[pri:0, instance:com.one.LoginTest@2db7a79b]" name="verifyLoginFails" class="com.one.LoginTest"/>
+        <method signature="LoginTest.verifyLoginFails()[pri:0, instance:com.one.LoginTest@64f6106c]" name="verifyLoginFails" class="com.one.LoginTest"/>
+        <method signature="LoginTest.verifyLoginFails()[pri:0, instance:com.one.LoginTest@1d371b2d]" name="verifyLoginFails" class="com.one.LoginTest"/>
+      </group> <!-- lockedout -->
+    </groups>
+    <test name="LoginPage" duration-ms="8436" started-at="2020-10-11T19:37:37Z" finished-at="2020-10-11T19:37:46Z">
+      <class name="com.one.LoginTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.one.LoginTest@34c4973]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="15" started-at="2020-10-11T19:37:37Z" finished-at="2020-10-11T19:37:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.one.LoginTest@34c4973]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="5413" started-at="2020-10-11T19:37:37Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-10-11T19:37:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.LoginTest@34c4973]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="3" started-at="2020-10-11T19:37:43Z" finished-at="2020-10-11T19:37:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.LoginTest.verifyLoginPageElements()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="verifyLoginPageElements()[pri:0, instance:com.one.LoginTest@34c4973]" name="verifyLoginPageElements" duration-ms="2979" started-at="2020-10-11T19:37:43Z" finished-at="2020-10-11T19:37:46Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verify elements on login page]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginPageElements -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.LoginTest@34c4973]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2020-10-11T19:37:46Z" finished-at="2020-10-11T19:37:46Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.LoginTest.verifyLoginPageElements()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.one.LoginTest@34c4973]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:46Z" finished-at="2020-10-11T19:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.one.LoginTest -->
+    </test> <!-- LoginPage -->
+    <test name="LoginSmokeTest1" duration-ms="2259" started-at="2020-10-11T19:37:46Z" finished-at="2020-10-11T19:37:48Z">
+      <class name="com.one.LoginTest">
+        <test-method status="PASS" signature="beforeTestMethod(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestResult)[pri:0, instance:com.one.LoginTest@3e57cd70]" name="beforeTestMethod" is-config="true" duration-ms="1494" started-at="2020-10-11T19:37:46Z" finished-at="2020-10-11T19:37:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.one.LoginTest@3e57cd70]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:46Z" finished-at="2020-10-11T19:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.one.LoginTest@3e57cd70]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:46Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-10-11T19:37:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.one.LoginTest@3e57cd70]" name="verifyLogin" duration-ms="93" started-at="2020-10-11T19:37:47Z" finished-at="2020-10-11T19:37:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.LoginTest@3e57cd70]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:47Z" finished-at="2020-10-11T19:37:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.LoginTest.verifyLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.LoginTest@3e57cd70]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2020-10-11T19:37:47Z" finished-at="2020-10-11T19:37:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.LoginTest.verifyLoginLogout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.LoginTest@3e57cd70]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:47Z" finished-at="2020-10-11T19:37:47Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.LoginTest.verifyLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="verifyLoginLogout()[pri:0, instance:com.one.LoginTest@3e57cd70]" name="verifyLoginLogout" duration-ms="667" started-at="2020-10-11T19:37:47Z" finished-at="2020-10-11T19:37:48Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verify logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginLogout -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.one.LoginTest@3e57cd70]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2020-10-11T19:37:48Z" finished-at="2020-10-11T19:37:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.LoginTest@3e57cd70]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:48Z" finished-at="2020-10-11T19:37:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.LoginTest.verifyLoginLogout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+      </class> <!-- com.one.LoginTest -->
+    </test> <!-- LoginSmokeTest1 -->
+    <test name="LoginSmokeTest2" duration-ms="977" started-at="2020-10-11T19:37:48Z" finished-at="2020-10-11T19:37:49Z">
+      <class name="com.one.LoginTest">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.one.LoginTest@7a9273a8]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1" started-at="2020-10-11T19:37:48Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-10-11T19:37:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.one.LoginTest@7a9273a8]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:48Z" finished-at="2020-10-11T19:37:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="beforeTestMethod(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestResult)[pri:0, instance:com.one.LoginTest@7a9273a8]" name="beforeTestMethod" is-config="true" duration-ms="584" started-at="2020-10-11T19:37:48Z" finished-at="2020-10-11T19:37:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.one.LoginTest@7a9273a8]" name="verifyLogin" duration-ms="64" started-at="2020-10-11T19:37:49Z" finished-at="2020-10-11T19:37:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.LoginTest@7a9273a8]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:49Z" finished-at="2020-10-11T19:37:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.LoginTest.verifyLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.LoginTest@7a9273a8]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:49Z" finished-at="2020-10-11T19:37:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.LoginTest.verifyLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.LoginTest@7a9273a8]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2020-10-11T19:37:49Z" finished-at="2020-10-11T19:37:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.LoginTest.verifyLoginLogout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="verifyLoginLogout()[pri:0, instance:com.one.LoginTest@7a9273a8]" name="verifyLoginLogout" duration-ms="327" started-at="2020-10-11T19:37:49Z" finished-at="2020-10-11T19:37:49Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Verify logout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- verifyLoginLogout -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.one.LoginTest@7a9273a8]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:49Z" finished-at="2020-10-11T19:37:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.LoginTest@7a9273a8]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:49Z" finished-at="2020-10-11T19:37:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.LoginTest.verifyLoginLogout()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+      </class> <!-- com.one.LoginTest -->
+    </test> <!-- LoginSmokeTest2 -->
+    <test name="LoginSmokeTestPerformanceIssues" duration-ms="5624" started-at="2020-10-11T19:37:49Z" finished-at="2020-10-11T19:37:55Z">
+      <class name="com.one.LoginTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.one.LoginTest@6043cd28]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:49Z" finished-at="2020-10-11T19:37:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.one.LoginTest@6043cd28]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1" started-at="2020-10-11T19:37:49Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-10-11T19:37:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="beforeTestMethod(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestResult)[pri:0, instance:com.one.LoginTest@6043cd28]" name="beforeTestMethod" is-config="true" duration-ms="5536" started-at="2020-10-11T19:37:49Z" finished-at="2020-10-11T19:37:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[performance_glitch_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value is-null="true"/>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.LoginTest@6043cd28]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2020-10-11T19:37:55Z" finished-at="2020-10-11T19:37:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.LoginTest.verifyLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="verifyLogin()[pri:0, instance:com.one.LoginTest@6043cd28]" name="verifyLogin" duration-ms="85" started-at="2020-10-11T19:37:55Z" finished-at="2020-10-11T19:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogin -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.LoginTest@6043cd28]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:55Z" finished-at="2020-10-11T19:37:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.LoginTest.verifyLogin()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.one.LoginTest@6043cd28]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:55Z" finished-at="2020-10-11T19:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.one.LoginTest -->
+    </test> <!-- LoginSmokeTestPerformanceIssues -->
+    <test name="LoginSmokeTestLockedUser" duration-ms="418" started-at="2020-10-11T19:37:55Z" finished-at="2020-10-11T19:37:55Z">
+      <class name="com.one.LoginTest">
+        <test-method status="PASS" signature="beforeTestMethod(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestResult)[pri:0, instance:com.one.LoginTest@44c8afef]" name="beforeTestMethod" is-config="true" duration-ms="340" started-at="2020-10-11T19:37:55Z" finished-at="2020-10-11T19:37:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[locked_out_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Sorry, this user has been locked out.]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.one.LoginTest@44c8afef]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:55Z" finished-at="2020-10-11T19:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.one.LoginTest@44c8afef]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:55Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-10-11T19:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.LoginTest@44c8afef]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2020-10-11T19:37:55Z" finished-at="2020-10-11T19:37:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.LoginTest.verifyLoginFails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="verifyLoginFails()[pri:0, instance:com.one.LoginTest@44c8afef]" name="verifyLoginFails" duration-ms="75" started-at="2020-10-11T19:37:55Z" finished-at="2020-10-11T19:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFails -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.LoginTest@44c8afef]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2020-10-11T19:37:55Z" finished-at="2020-10-11T19:37:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.LoginTest.verifyLoginFails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.one.LoginTest@44c8afef]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:55Z" finished-at="2020-10-11T19:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.one.LoginTest -->
+    </test> <!-- LoginSmokeTestLockedUser -->
+    <test name="LoginSmokeTestWrongPassword" duration-ms="397" started-at="2020-10-11T19:37:55Z" finished-at="2020-10-11T19:37:56Z">
+      <class name="com.one.LoginTest">
+        <test-method status="PASS" signature="beforeTestMethod(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestResult)[pri:0, instance:com.one.LoginTest@77ec78b9]" name="beforeTestMethod" is-config="true" duration-ms="338" started-at="2020-10-11T19:37:55Z" finished-at="2020-10-11T19:37:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret-sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username and password do not match any user in this service]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.one.LoginTest@77ec78b9]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:55Z" finished-at="2020-10-11T19:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.one.LoginTest@77ec78b9]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:55Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-10-11T19:37:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="verifyLoginFails()[pri:0, instance:com.one.LoginTest@77ec78b9]" name="verifyLoginFails" duration-ms="58" started-at="2020-10-11T19:37:55Z" finished-at="2020-10-11T19:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFails -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.LoginTest@77ec78b9]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:55Z" finished-at="2020-10-11T19:37:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.LoginTest.verifyLoginFails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.LoginTest@77ec78b9]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:56Z" finished-at="2020-10-11T19:37:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.LoginTest.verifyLoginFails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.one.LoginTest@77ec78b9]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:56Z" finished-at="2020-10-11T19:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.one.LoginTest -->
+    </test> <!-- LoginSmokeTestWrongPassword -->
+    <test name="LoginSmokeTestEmptyPassword" duration-ms="373" started-at="2020-10-11T19:37:56Z" finished-at="2020-10-11T19:37:56Z">
+      <class name="com.one.LoginTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.one.LoginTest@4eb7f003]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="1" started-at="2020-10-11T19:37:56Z" finished-at="2020-10-11T19:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="beforeTestMethod(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestResult)[pri:0, instance:com.one.LoginTest@4eb7f003]" name="beforeTestMethod" is-config="true" duration-ms="311" started-at="2020-10-11T19:37:56Z" finished-at="2020-10-11T19:37:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Password is required]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.one.LoginTest@4eb7f003]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:56Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-10-11T19:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.LoginTest@4eb7f003]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2020-10-11T19:37:56Z" finished-at="2020-10-11T19:37:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.LoginTest.verifyLoginFails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="verifyLoginFails()[pri:0, instance:com.one.LoginTest@4eb7f003]" name="verifyLoginFails" duration-ms="60" started-at="2020-10-11T19:37:56Z" finished-at="2020-10-11T19:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFails -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.one.LoginTest@4eb7f003]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:56Z" finished-at="2020-10-11T19:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.LoginTest@4eb7f003]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:56Z" finished-at="2020-10-11T19:37:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.LoginTest.verifyLoginFails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+      </class> <!-- com.one.LoginTest -->
+    </test> <!-- LoginSmokeTestEmptyPassword -->
+    <test name="LoginSmokeTestSpaceUsername" duration-ms="420" started-at="2020-10-11T19:37:56Z" finished-at="2020-10-11T19:37:56Z">
+      <class name="com.one.LoginTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.one.LoginTest@2db7a79b]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:56Z" finished-at="2020-10-11T19:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="beforeTestMethod(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestResult)[pri:0, instance:com.one.LoginTest@2db7a79b]" name="beforeTestMethod" is-config="true" duration-ms="363" started-at="2020-10-11T19:37:56Z" finished-at="2020-10-11T19:37:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ ]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username and password do not match any user in this service]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.one.LoginTest@2db7a79b]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:56Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-10-11T19:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="verifyLoginFails()[pri:0, instance:com.one.LoginTest@2db7a79b]" name="verifyLoginFails" duration-ms="55" started-at="2020-10-11T19:37:56Z" finished-at="2020-10-11T19:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFails -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.LoginTest@2db7a79b]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:56Z" finished-at="2020-10-11T19:37:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.LoginTest.verifyLoginFails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.LoginTest@2db7a79b]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2020-10-11T19:37:56Z" finished-at="2020-10-11T19:37:56Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.LoginTest.verifyLoginFails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.one.LoginTest@2db7a79b]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:56Z" finished-at="2020-10-11T19:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.one.LoginTest -->
+    </test> <!-- LoginSmokeTestSpaceUsername -->
+    <test name="LoginSmokeTestEmptyUsername" duration-ms="375" started-at="2020-10-11T19:37:56Z" finished-at="2020-10-11T19:37:57Z">
+      <class name="com.one.LoginTest">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.one.LoginTest@64f6106c]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:56Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-10-11T19:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.one.LoginTest@64f6106c]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:56Z" finished-at="2020-10-11T19:37:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="beforeTestMethod(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestResult)[pri:0, instance:com.one.LoginTest@64f6106c]" name="beforeTestMethod" is-config="true" duration-ms="308" started-at="2020-10-11T19:37:56Z" finished-at="2020-10-11T19:37:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username is required]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="verifyLoginFails()[pri:0, instance:com.one.LoginTest@64f6106c]" name="verifyLoginFails" duration-ms="65" started-at="2020-10-11T19:37:57Z" finished-at="2020-10-11T19:37:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFails -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.LoginTest@64f6106c]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:57Z" finished-at="2020-10-11T19:37:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.LoginTest.verifyLoginFails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.LoginTest@64f6106c]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:57Z" finished-at="2020-10-11T19:37:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.LoginTest.verifyLoginFails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.one.LoginTest@64f6106c]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:57Z" finished-at="2020-10-11T19:37:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.one.LoginTest -->
+    </test> <!-- LoginSmokeTestEmptyUsername -->
+    <test name="LoginSmokeTestWrongUser" duration-ms="388" started-at="2020-10-11T19:37:57Z" finished-at="2020-10-11T19:37:57Z">
+      <class name="com.one.LoginTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.one.LoginTest@1d371b2d]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:57Z" finished-at="2020-10-11T19:37:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.one.LoginTest@1d371b2d]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1" started-at="2020-10-11T19:37:57Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2020-10-11T19:37:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="beforeTestMethod(java.lang.String, java.lang.String, java.lang.String, org.testng.ITestResult)[pri:0, instance:com.one.LoginTest@1d371b2d]" name="beforeTestMethod" is-config="true" duration-ms="327" started-at="2020-10-11T19:37:57Z" finished-at="2020-10-11T19:37:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standarduser]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Username and password do not match any user in this service]]>
+              </value>
+            </param>
+            <param index="3">
+              <value is-null="true"/>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTestMethod -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.LoginTest@1d371b2d]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:57Z" finished-at="2020-10-11T19:37:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.LoginTest.verifyLoginFails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="verifyLoginFails()[pri:0, instance:com.one.LoginTest@1d371b2d]" name="verifyLoginFails" duration-ms="60" started-at="2020-10-11T19:37:57Z" finished-at="2020-10-11T19:37:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLoginFails -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.one.LoginTest@1d371b2d]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:57Z" finished-at="2020-10-11T19:37:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.one.LoginTest.verifyLoginFails()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.one.LoginTest@1d371b2d]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2020-10-11T19:37:57Z" finished-at="2020-10-11T19:37:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.one.LoginTest -->
+    </test> <!-- LoginSmokeTestWrongUser -->
+  </suite> <!-- LoginTestSuite -->
+</testng-results>
